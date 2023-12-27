@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow:hidden;
+    
     font-family: Roboto, sans-serif;
   }
 
@@ -14,6 +14,7 @@ body {
 }
 
 .hero_section{
+    
     gap:20px;
     display:flex;
     
@@ -29,4 +30,25 @@ body {
 }
 .sec3{
     background-color: #E5E7EB;
+}
+.sec2 {
+    gap:30px;
+    display:flex;
+    justify-content: center;
+    
+}
+.hero_section h1{
+    text-align: center;
+}
+.sec2 .i{
+ text-align: center;
+ gap:5px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+    
+}
+.sec2 img{
+    border: 4px solid blue;
+    border-radius: 20px;
 }
