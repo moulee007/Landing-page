@@ -1,0 +1,32 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow:hidden;
+    font-family: Roboto, sans-serif;
+  }
+
+.header,.footer{
+    
+    display:flex;
+    background-color: #1F2937;
+    color:white;
+}
+
+.hero_section{
+    gap:20px;
+    display:flex;
+    
+    flex-direction: column;
+   
+}
+.footer{
+    width: 100%;
+    margin-top:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3{
+    background-color: #E5E7EB;
+}
